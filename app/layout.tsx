@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "next-themes";
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
     description:
         "This website shares technical notes that covers hardware design, software design and some technical experiences.",
     icons: {
-        icon: "/img/logo.svg", 
+        icon: "/img/logo.svg",
     },
 };
 
@@ -23,6 +24,7 @@ export default function RootLayout({
         <html lang="en" suppressHydrationWarning>
             <body className={inter.className}>
                 <ThemeProvider>{children}</ThemeProvider>
+                <Analytics />
             </body>
         </html>
     );
