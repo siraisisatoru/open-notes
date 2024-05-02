@@ -6,11 +6,11 @@ import { ThemeProvider } from "next-themes";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-    title: "Siraisinotes-Wiki",
+    title: "Siraisi Notes",
     description:
-        "This is the web page for personal reference. This page will include the majority of learning experience in the past years and organise in the way of course tiles and some arbitory notes. It is intended to be updated regularly.",
+        "This website shares technical notes that covers hardware design, software design and some technical experiences.",
     icons: {
-        icon: "/img/logo.svg", // /public path
+        icon: "/img/logo.svg", 
     },
 };
 

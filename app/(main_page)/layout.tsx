@@ -7,12 +7,11 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-    title: "Next markdown template",
+    title: "Siraisi Notes",
     description:
-        "This is a meaningful wiki page for you.",
-
+        "This website shares technical notes that covers hardware design, software design and some technical experiences.",
     icons: {
-        icon: "/img/logo.svg", // /public path
+        icon: "/img/logo.svg",
     },
 };
 
