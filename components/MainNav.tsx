@@ -53,15 +53,6 @@ const MainNav = async () => {
                                 </CloseDrawerLink>
                             </li>
                             <li>
-                                <CloseDrawerLink href="/testhook">
-                                    <FaFlaskVial />
-                                    Page function tests
-                                </CloseDrawerLink>
-                                {/* <Link >
-                                    
-                                </Link> */}
-                            </li>
-                            <li>
                                 <div className="pointer-events-none">
                                     <FaRoute />
                                     Notes index
